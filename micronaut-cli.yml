@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: mn.graal.consul
+---
+testFramework: junit
+sourceLanguage: java

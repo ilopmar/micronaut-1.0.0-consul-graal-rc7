@@ -1,0 +1,11 @@
+---
+micronaut:
+    application:
+        name: mn-graal-consul
+
+---
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
